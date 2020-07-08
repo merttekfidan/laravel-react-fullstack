@@ -3,6 +3,7 @@ import SearchBar from "./SearchBar";
 import SearchBarMobile from "./SearchBarMobile";
 import Notification from "./Notification";
 import Profile from "./Profile";
+
 export default function Topbar() {
   return (
     <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
