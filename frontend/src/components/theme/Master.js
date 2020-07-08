@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../theme/Sidebar";
-import Topbar from "../theme/Topbar";
+import Sidebar from "./sidebar";
+import Topbar from "./topbar";
 export default function Master(props) {
   return (
     <React.Fragment>
