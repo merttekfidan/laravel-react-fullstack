@@ -162,10 +162,10 @@ export default function Sidebar() {
       </li>
 
       <li className="nav-item">
-        <a className="nav-link" href="/about">
+        <Link className="nav-link" to="/about">
           <i className="fas fa-fw fa-table"></i>
           <span>About</span>
-        </a>
+        </Link>
       </li>
 
       <hr className="sidebar-divider d-none d-md-block" />
