@@ -6,7 +6,7 @@ export default function SearchBarMobile() {
       <li className="nav-item dropdown no-arrow d-sm-none">
         <a
           className="nav-link dropdown-toggle"
-          href="#"
+          href={() => false}
           id="searchDropdown"
           role="button"
           data-toggle="dropdown"

@@ -8,7 +8,10 @@ export default function Profile() {
         aria-labelledby="messagesDropdown"
       >
         <h6 className="dropdown-header">Message Center</h6>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="dropdown-list-image mr-3">
             <img
               className="rounded-circle"
@@ -25,7 +28,10 @@ export default function Profile() {
             <div className="small text-gray-500">Emily Fowler · 58m</div>
           </div>
         </a>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="dropdown-list-image mr-3">
             <img
               className="rounded-circle"
@@ -42,7 +48,10 @@ export default function Profile() {
             <div className="small text-gray-500">Jae Chun · 1d</div>
           </div>
         </a>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="dropdown-list-image mr-3">
             <img
               className="rounded-circle"
@@ -59,7 +68,10 @@ export default function Profile() {
             <div className="small text-gray-500">Morgan Alvarez · 2d</div>
           </div>
         </a>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="dropdown-list-image mr-3">
             <img
               className="rounded-circle"
@@ -76,7 +88,10 @@ export default function Profile() {
             <div className="small text-gray-500">Chicken the Dog · 2w</div>
           </div>
         </a>
-        <a className="dropdown-item text-center small text-gray-500" href="#">
+        <a
+          className="dropdown-item text-center small text-gray-500"
+          href={() => false}
+        >
           Read More Messages
         </a>
       </div>

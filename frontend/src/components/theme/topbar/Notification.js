@@ -5,7 +5,7 @@ export default function Notification() {
     <li className="nav-item dropdown no-arrow mx-1">
       <a
         className="nav-link dropdown-toggle"
-        href="#"
+        href={() => false}
         id="alertsDropdown"
         role="button"
         data-toggle="dropdown"
@@ -20,7 +20,10 @@ export default function Notification() {
         aria-labelledby="alertsDropdown"
       >
         <h6 className="dropdown-header">Alerts Center</h6>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="mr-3">
             <div className="icon-circle bg-primary">
               <i className="fas fa-file-alt text-white"></i>
@@ -33,7 +36,10 @@ export default function Notification() {
             </span>
           </div>
         </a>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="mr-3">
             <div className="icon-circle bg-success">
               <i className="fas fa-donate text-white"></i>
@@ -44,7 +50,10 @@ export default function Notification() {
             $290.29 has been deposited into your account!
           </div>
         </a>
-        <a className="dropdown-item d-flex align-items-center" href="#">
+        <a
+          className="dropdown-item d-flex align-items-center"
+          href={() => false}
+        >
           <div className="mr-3">
             <div className="icon-circle bg-warning">
               <i className="fas fa-exclamation-triangle text-white"></i>
@@ -56,7 +65,10 @@ export default function Notification() {
             account.
           </div>
         </a>
-        <a className="dropdown-item text-center small text-gray-500" href="#">
+        <a
+          className="dropdown-item text-center small text-gray-500"
+          href={() => false}
+        >
           Show All Alerts
         </a>
       </div>

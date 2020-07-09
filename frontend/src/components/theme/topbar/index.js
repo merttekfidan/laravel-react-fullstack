@@ -21,7 +21,7 @@ export default function Topbar() {
         <li className="nav-item dropdown no-arrow mx-1">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href={() => false}
             id="messagesDropdown"
             role="button"
             data-toggle="dropdown"
