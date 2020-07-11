@@ -10,7 +10,7 @@ export default function Todo() {
   }
   function flipStatus(e, i) {
     const newTodos = [...todos];
-    if (e.target.value == 1) newTodos[i].done = 0;
+    if (e.target.value === 1) newTodos[i].done = 0;
     else newTodos[i].done = 1;
     setTodos(newTodos);
   }
@@ -30,7 +30,7 @@ export default function Todo() {
             }}
             key={i}
           >
-            {todo.body},{typeof todo}
+            {todo.body}
           </li>
         ))}
       </ul>
