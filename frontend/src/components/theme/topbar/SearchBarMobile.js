@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function SearchBarMobile() {
   return (
     <React.Fragment>
       <li className="nav-item dropdown no-arrow d-sm-none">
-        <a
+        <Link
           className="nav-link dropdown-toggle"
-          href={() => false}
+          to={() => false}
           id="searchDropdown"
           role="button"
           data-toggle="dropdown"
@@ -14,7 +14,7 @@ export default function SearchBarMobile() {
           aria-expanded="false"
         >
           <i className="fas fa-search fa-fw"></i>
-        </a>
+        </Link>
 
         <div
           className="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"

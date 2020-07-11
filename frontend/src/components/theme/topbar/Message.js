@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Profile() {
   return (
     <React.Fragment>
       <li className="nav-item dropdown no-arrow mx-1">
-        <a
+        <Link
           className="nav-link dropdown-toggle"
-          href={() => false}
+          to={() => false}
           id="messagesDropdown"
           role="button"
           data-toggle="dropdown"
@@ -15,7 +15,7 @@ export default function Profile() {
         >
           <i className="fas fa-envelope fa-fw"></i>
           <span className="badge badge-danger badge-counter">10</span>
-        </a>
+        </Link>
       </li>
       <li className="nav-item dropdown no-arrow mx-1">
         <div
@@ -23,9 +23,9 @@ export default function Profile() {
           aria-labelledby="messagesDropdown"
         >
           <h6 className="dropdown-header">Message Center</h6>
-          <a
+          <Link
             className="dropdown-item d-flex align-items-center"
-            href={() => false}
+            to={() => false}
           >
             <div className="dropdown-list-image mr-3">
               <img
@@ -42,10 +42,10 @@ export default function Profile() {
               </div>
               <div className="small text-gray-500">Emily Fowler · 58m</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
             className="dropdown-item d-flex align-items-center"
-            href={() => false}
+            to={() => false}
           >
             <div className="dropdown-list-image mr-3">
               <img
@@ -62,10 +62,10 @@ export default function Profile() {
               </div>
               <div className="small text-gray-500">Jae Chun · 1d</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
             className="dropdown-item d-flex align-items-center"
-            href={() => false}
+            to={() => false}
           >
             <div className="dropdown-list-image mr-3">
               <img
@@ -82,10 +82,10 @@ export default function Profile() {
               </div>
               <div className="small text-gray-500">Morgan Alvarez · 2d</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
             className="dropdown-item d-flex align-items-center"
-            href={() => false}
+            to={() => false}
           >
             <div className="dropdown-list-image mr-3">
               <img
@@ -102,13 +102,13 @@ export default function Profile() {
               </div>
               <div className="small text-gray-500">Chicken the Dog · 2w</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
             className="dropdown-item text-center small text-gray-500"
-            href={() => false}
+            to={() => false}
           >
             Read More Messages
-          </a>
+          </Link>
         </div>
       </li>
     </React.Fragment>

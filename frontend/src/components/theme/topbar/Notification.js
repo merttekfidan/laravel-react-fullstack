@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Notification() {
   return (
     <li className="nav-item dropdown no-arrow mx-1">
-      <a
+      <Link
         className="nav-link dropdown-toggle"
-        href={() => false}
+        to={() => false}
         id="alertsDropdown"
         role="button"
         data-toggle="dropdown"
@@ -14,15 +14,15 @@ export default function Notification() {
       >
         <i className="fas fa-bell fa-fw"></i>
         <span className="badge badge-danger badge-counter">3+</span>
-      </a>
+      </Link>
       <div
         className="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
         aria-labelledby="alertsDropdown"
       >
         <h6 className="dropdown-header">Alerts Center</h6>
-        <a
+        <Link
           className="dropdown-item d-flex align-items-center"
-          href={() => false}
+          to={() => false}
         >
           <div className="mr-3">
             <div className="icon-circle bg-primary">
@@ -35,10 +35,10 @@ export default function Notification() {
               A new monthly report is ready to download!
             </span>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           className="dropdown-item d-flex align-items-center"
-          href={() => false}
+          to={() => false}
         >
           <div className="mr-3">
             <div className="icon-circle bg-success">
@@ -49,10 +49,10 @@ export default function Notification() {
             <div className="small text-gray-500">December 7, 2019</div>
             $290.29 has been deposited into your account!
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           className="dropdown-item d-flex align-items-center"
-          href={() => false}
+          to={() => false}
         >
           <div className="mr-3">
             <div className="icon-circle bg-warning">
@@ -64,13 +64,13 @@ export default function Notification() {
             Spending Alert: We've noticed unusually high spending for your
             account.
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           className="dropdown-item text-center small text-gray-500"
-          href={() => false}
+          to={() => false}
         >
           Show All Alerts
-        </a>
+        </Link>
       </div>
     </li>
   );
